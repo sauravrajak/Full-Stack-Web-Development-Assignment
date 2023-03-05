@@ -50,6 +50,11 @@ img {
 .navlist .navlink {
   color: #000;
   font-weight: 500;
+  transition: all 0.1s ease-in;
+}
+
+.navlist .navlink:hover {
+  color: #1c8d73;
 }
 
 .logo {
@@ -74,10 +79,16 @@ img {
 .search-btn {
   background-color: #1c8d73;
   padding: 1rem 2rem;
-  color: #000;
+  color: #fff;
   font-size: 2rem;
   font-weight: 300;
   border-radius: 0.5rem;
+  transition: all 0.1s ease-in;
+}
+
+.search-btn:hover {
+  background-color: #fff;
+  color: black;
 }
 
 .container {
@@ -139,6 +150,12 @@ img {
   color: white;
   border-radius: 0.5rem;
   cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.btn-chat:hover {
+  background-color: #fff;
+  color: black;
 }
 
 .footer {
